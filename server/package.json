@@ -1,0 +1,38 @@
+{
+  "name": "hello-koa2",
+  "version": "1.0.0",
+  "description": "Hello Koa 2 example with async",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "supervisor app.js"
+  },
+  "keywords": [
+    "koa",
+    "async"
+  ],
+  "author": "",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-polyfill": "^6.26.0",
+    "ejs": "^2.5.7",
+    "form-data": "^2.3.1",
+    "fs.promised": "^3.0.0",
+    "jsonwebtoken": "^8.0.1",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-gzip": "^0.1.0",
+    "koa-route": "^3.2.0",
+    "koa-router": "^7.2.1",
+    "koa-static": "^4.0.1",
+    "koa-static-cache": "latest",
+    "koa-views": "^6.0.2",
+    "node-uuid": "^1.4.8",
+    "qs": "latest",
+    "request": "^2.81.0",
+    "tracer": "^0.8.11"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
